@@ -1,6 +1,6 @@
 # README
 
-Here is actually a simple record of [**Learn Swift HK** meeing on 2019/03/02](https://www.meetup.com/Learn-Swift-HK/events/256881188/)
+This repository is a simple record of [**Learn Swift HK** meeing on 2019/03/02](https://www.meetup.com/Learn-Swift-HK/events/256881188/)
 
 We have discuss the difference between Private and Fileprivate and finish a simple Sign Up Page with programmatic autolayout and Firebase.
 
