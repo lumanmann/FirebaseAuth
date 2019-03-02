@@ -84,10 +84,10 @@ class SignUpController: UIViewController {
 //            plusPhotoButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
 //            plusPhotoButton.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 50)
 //            ])
-        
+
         plusPhotoButton.anchor(top: view.safeAreaLayoutGuide.topAnchor, leading: nil, trailing: nil, bottom: nil, paddingTop: 50, paddingLeading: 0, paddingTrailing: 0, paddingBottom: 0, width: 140, height: 140)
         plusPhotoButton.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
-        
+
         setupInputFields()
         
         
