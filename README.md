@@ -20,8 +20,9 @@ Just few key points:
 - Private functions and variables are only accessible in its own class, including extension in other files.
 - Fileprivate functions and variables are accessible in all the classes in that file, but cannot be accessed in other file, even in the extension of class where functions and variables are declared.
 - fileprivate(set) 、 private(set) -> only setter is set to this access level
-for example: `   fileprivate(set) let foo = 1 ` 
-foo can only be set in that file but can be get in other files
+for example: `   private(set) public var foo: String? ` 
+setter will be private while getter is public
+foo can only be set in that class but can be get publicly
 
 
 
@@ -56,6 +57,7 @@ window?.rootViewController = navController
 #### Step 2: Create a button for the avater
 
 Add a Button in SignUpController:
+
 
 ```swift
 let plusPhotoButton: UIButton = {
