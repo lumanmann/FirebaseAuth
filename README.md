@@ -21,8 +21,8 @@ Just few key points:
 - Fileprivate functions and variables are accessible in all the classes in that file, but cannot be accessed in other file, even in the extension of class where functions and variables are declared.
 - fileprivate(set) 、 private(set) -> only setter is set to this access level
 for example: `   private(set) public var foo: String? ` 
-setter will be private while getter is public
-foo can only be set in that class but can be get publicly
+
+setter will be private while getter is public -- foo can only be set in that class but can be get publicly.
 
 
 
