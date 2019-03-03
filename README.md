@@ -4,6 +4,8 @@ This repository is a simple record of [**Learn Swift HK** meeing on 2019/03/02](
 
 We have discuss the difference between Private and Fileprivate and finish a simple Sign Up Page with programmatic autolayout and Firebase.
 
+中文版本可在[Medium](https://medium.com/@nwy0206/learn-swift-hk-2019-03-02-7ed312cd5b68)找到
+
 ## Outcome
 ![](https://i.imgur.com/b1AT5lA.png)
 
